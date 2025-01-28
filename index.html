@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    style="
+      background-image: url('./bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div id="ramdom_lx">
+      <section class="main">
+        <p id="name_ramdom" style="color: #fff">1</p>
+        <span class="wrap_wheel">
+          <ul class="wheel"></ul>
+        </span>
+        <button class="btn--wheel">Quay</button>
+      </section>
+
+      <div class="wrap_msg" id="wrap_msg">
+        <div class="wrap_notification">
+          <div class="popup" id="popup">
+            <p id="err_gift"></p>
+            <h1 id="msg_err" class="msg"></h1>
+            <p>
+              Vui lòng cap màn hình rồi liên hệ
+              <a href="https://www.facebook.com/mhungne.24">Mạnh Hùng</a> để
+              nhận quà
+            </p>
+            <button class="close-btn" onclick="closePopup()">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
